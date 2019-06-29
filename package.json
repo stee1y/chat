@@ -1,0 +1,30 @@
+{
+  "name": "X-chat",
+  "version": "1.0.0",
+  "description": "My cat&#39;s pajamas Nuxt.js project",
+  "author": "Ivan Eremeev",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
+    "build": "nuxt build",
+    "start": "cross-env NODE_ENV=production node server/index.js",
+    "generate": "nuxt generate"
+  },
+  "engines": {
+      "node": "10.15.3"
+  },
+  "dependencies": {
+    "@nuxtjs/pwa": "^2.6.0",
+    "@nuxtjs/vuetify": "0.5.5",
+    "cross-env": "^5.2.0",
+    "express": "^4.15.2",
+    "nuxt": "latest",
+    "socket.io": "^2.2.0",
+    "vue-socket.io": "^3.0.7"
+  },
+  "devDependencies": {
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "nodemon": "^1.18.9"
+  }
+}
