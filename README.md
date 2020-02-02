@@ -1,3 +1,5 @@
+# Priject : https://x-chats.herokuapp.com/
+
 # X-chat
 
 > My cat&#39;s pajamas Nuxt.js project
@@ -18,5 +20,7 @@ $ npm start
 # generate static project
 $ npm run generate
 ```
+
+
 
 For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
