@@ -17,7 +17,7 @@
     "@nuxtjs/pwa": "^2.6.0",
     "@nuxtjs/vuetify": "0.5.5",
     "cross-env": "^5.2.0",
-    "express": "^4.15.2",
+    "express": "^4.17.3",
     "nuxt": "latest",
     "socket.io": "^2.2.0",
     "vue-socket.io": "^3.0.7"
